@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>100 Jahre Sandro & Manuela</title>
+
 <style>
 body {
     font-family: Arial, sans-serif;
@@ -62,14 +63,13 @@ body {
     margin: 0 5px;
     background-color: #bbb;
     border-radius: 50%;
-    transition: background-color 0.3s;
 }
 
 .dot.active {
     background-color: #2f6f4e;
 }
 
-/* ===== Content ===== */
+/* ===== CONTENT ===== */
 .container {
     max-width: 900px;
     margin: auto;
@@ -126,12 +126,15 @@ body {
 }
 </style>
 </head>
+
 <body>
 
+<!-- ===== HEADER ===== -->
 <div class="header-title">
 🎉 100 Jahre Sandro & Manuela 🎉
 </div>
 
+<!-- ===== SLIDER ===== -->
 <section class="hero-slider">
     <div class="slides">
         <img src="Bild1.jpg" alt="Bild 1">
@@ -156,8 +159,8 @@ body {
     <p>Dieses Jahr spielen wir in einer ganz besonderen Liga:</p>
 
     <p>🏆 <strong>Sandro wird 60</strong> – offiziell im <em>Legenden-Modus</em>.<br>
-       Er behauptet zwar, er sei noch in der Verlängerung, aber wir wissen:
-       Das ist kein Abseits – das ist Erfahrung! ⚽😉</p>
+       Er behauptet zwar, er sei noch in der Verlängerung,
+       aber wir wissen: Das ist kein Abseits – das ist Erfahrung! ⚽😉</p>
 
     <p>🌲 <strong>Manuela wird 40</strong> – fest verwurzelt im Leben.<br>
        Mit beiden Beinen im Moos statt im Strafraum,
@@ -191,13 +194,13 @@ body {
             <span class="icon">📍</span>
             <h3>Ort</h3>
             <p>Katholische Kirchgemeinde Lüchingen<br>
-            Kirchweg 7, Schweiz</p>
+               Kirchweg 7, Schweiz</p>
         </div>
     </div>
 </section>
 
 <section class="text-box">
-    <p>👕 <strong>Dresscode-Idee (freiwillig 😉):</strong><br>
+    <p>👕 <strong>Dresscode (freiwillig 😉):</strong><br>
        Grün wie die Natur 🍃 oder sportlich wie ein Stadion-Sonntag ⚽</p>
 
     <p>Bitte gebt uns bis spätestens <strong>01.06.2026</strong>
@@ -244,7 +247,7 @@ function showSlide(i) {
 setInterval(() => {
     index = (index + 1) % total;
     showSlide(index);
-}, 5000); // 5 Sekunden
+}, 3000); // ⏱️ 3 Sekunden
 </script>
 
 </body>
